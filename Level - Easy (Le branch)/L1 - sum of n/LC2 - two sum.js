@@ -1,5 +1,3 @@
-
-
 let twoSum = function(nums, target) {
     let a = nums.length, b = 0, c = 0
     while(b !== a){
@@ -13,7 +11,7 @@ let twoSum = function(nums, target) {
             c++
         }
         b++
-        
+
     }return []
 }
 let nums = [3,2,4], target = 6
